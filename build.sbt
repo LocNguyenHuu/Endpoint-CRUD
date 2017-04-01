@@ -22,7 +22,8 @@ val commonSettings = Seq(
 	libraryDependencies ++= Seq(
 		"org.mindrot" % "jbcrypt" % "0.4",
 		"com.typesafe.slick" % "slick_2.11" % "3.1.0",
-		"mysql" % "mysql-connector-java" % "5.1.21"
+		"mysql" % "mysql-connector-java" % "5.1.21",
+		"io.monix" %% "monix" % "2.2.4"
 ),
 	resolvers += "typesafe" at "http://repo.typesafe.com/typesafe/releases/"
 )
@@ -71,5 +72,5 @@ lazy val server = project.in(file("server"))
 	).dependsOn(endpoint)
 
 
-val main = (project in file(".")).aggregate(endpoint, server.dependsOn(endpoint), client.dependsOn(endpoint))
+//val main = (project in file(".")).aggregate(endpoint, server.dependsOn(endpoint), client.dependsOn(endpoint))
 

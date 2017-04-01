@@ -4,10 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-build.iml" filepath="$PROJECT_DIR$/.idea/modules/client-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crudendpoint.iml" filepath="$PROJECT_DIR$/.idea/modules/crudendpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crudendpoint-build.iml" filepath="$PROJECT_DIR$/.idea/modules/crudendpoint-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/endpoint.iml" filepath="$PROJECT_DIR$/.idea/modules/endpoint.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/endpoint-build.iml" filepath="$PROJECT_DIR$/.idea/modules/endpoint-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main.iml" filepath="$PROJECT_DIR$/.idea/modules/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-build.iml" filepath="$PROJECT_DIR$/.idea/modules/main-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-build.iml" filepath="$PROJECT_DIR$/.idea/modules/server-build.iml" />
     </modules>

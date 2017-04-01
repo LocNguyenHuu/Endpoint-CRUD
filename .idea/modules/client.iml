@@ -53,5 +53,10 @@
     <orderEntry type="library" name="SBT: org.typelevel:macro-compat_2.11:1.1.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.typelevel:macro-compat_sjs0.6_2.11:1.1.1:jar" level="project" />
     <orderEntry type="library" name="SBT: mysql:mysql-connector-java:5.1.21:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.monix:monix-eval_2.12:2.2.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.monix:monix-execution_2.12:2.2.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.monix:monix-reactive_2.12:2.2.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.monix:monix-types_2.12:2.2.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jctools:jctools-core:2.0:jar" level="project" />
   </component>
 </module>

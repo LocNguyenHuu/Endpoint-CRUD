@@ -4,7 +4,7 @@
 		module="crudendpoint_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170322222451"
+		publication="20170401002030"
 	>
 		<description>
 		CRUDEndpoint

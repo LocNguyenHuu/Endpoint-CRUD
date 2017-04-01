@@ -1,7 +1,411 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85f3b74c-6b13-4e56-b33e-eee78876f917" name="Default" comment="" />
+    <list default="true" id="85f3b74c-6b13-4e56-b33e-eee78876f917" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/endpoint/src/main/scala/ParseUser.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/endpoint/src/main/scala/circe.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/scala/Main.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/scala/route/MainServer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/scala/services/MainService.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/scala/util/MySQLDBImp.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/main-build.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$anon$lazy$macro$504$1$$anon$43.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$anon$lazy$macro$504$1$$anon$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$anon$lazy$macro$504$1$anon$macro$499$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$anon$lazy$macro$504$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$anon$lazy$macro$521$1$$anon$44.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$anon$lazy$macro$521$1$$anon$45.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$anon$lazy$macro$521$1$$anon$46.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$anon$lazy$macro$521$1$anon$macro$518$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest$anon$lazy$macro$521$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1$$anon$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1$$anon$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1$$anon$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1$$anon$47.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1$$anon$48.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1$$anon$49.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1$anon$macro$535$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1$anon$macro$541$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1$anon$macro$553$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$561$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$$anon$50.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$$anon$51.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$$anon$52.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$$anon$53.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$$anon$54.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$$anon$55.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$$anon$56.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$anon$macro$575$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$anon$macro$581$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1$anon$macro$590$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse$anon$lazy$macro$596$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/AddUserResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/ApiAlg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$$anon$30.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$$anon$31.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$$anon$32.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$$anon$33.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$$anon$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$$anon$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$$anon$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$$anon$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$anon$macro$409$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$anon$macro$415$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$anon$macro$426$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1$anon$macro$436$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$445$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$$anon$34.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$$anon$35.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$$anon$36.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$$anon$37.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$$anon$38.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$$anon$39.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$$anon$40.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$$anon$41.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$$anon$42.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$anon$macro$455$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$anon$macro$461$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$anon$macro$470$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1$anon$macro$479$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse$anon$lazy$macro$485$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetAllUsersResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$332$1$$anon$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$332$1$$anon$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$332$1$$anon$17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$332$1$$anon$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$332$1$anon$macro$320$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$332$1$anon$macro$325$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$332$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$352$1$$anon$18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$352$1$$anon$19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$352$1$$anon$20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$352$1$$anon$21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$352$1$$anon$22.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$352$1$anon$macro$342$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$352$1$anon$macro$347$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest$anon$lazy$macro$352$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$377$1$$anon$23.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$377$1$$anon$24.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$377$1$$anon$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$377$1$$anon$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$377$1$anon$macro$362$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$377$1$anon$macro$368$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$377$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$399$1$$anon$25.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$399$1$$anon$26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$399$1$$anon$27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$399$1$$anon$28.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$399$1$$anon$29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$399$1$anon$macro$387$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$399$1$anon$macro$393$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse$anon$lazy$macro$399$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/GetUserResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$621$1$$anon$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$621$1$$anon$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$621$1$$anon$57.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$621$1$$anon$58.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$621$1$anon$macro$606$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$621$1$anon$macro$612$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$621$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$643$1$$anon$59.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$643$1$$anon$60.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$643$1$$anon$61.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$643$1$$anon$62.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$643$1$$anon$63.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$643$1$anon$macro$631$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$643$1$anon$macro$637$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest$anon$lazy$macro$643$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UpdateUserRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/User$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UserId$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/UserId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$anon$lazy$macro$662$1$$anon$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$anon$lazy$macro$662$1$$anon$64.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$anon$lazy$macro$662$1$anon$macro$657$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$anon$lazy$macro$662$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$anon$lazy$macro$679$1$$anon$65.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$anon$lazy$macro$679$1$$anon$66.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$anon$lazy$macro$679$1$$anon$67.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$anon$lazy$macro$679$1$anon$macro$676$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$anon$lazy$macro$679$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$512542b84f4b2bdac5ba$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$512542b84f4b2bdac5ba$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$512542b84f4b2bdac5ba.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$512542b84f4b2bdac5ba.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$client$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$client$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$client$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$client$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$client$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$client$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$endpoint$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$endpoint$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$endpoint$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$endpoint$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$endpoint$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$endpoint$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$server$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$server$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$server$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$server$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$server$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$server$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$$anonfun$server$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$55b2fe4386fa681c0c0b.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$6c9d1b3be4fca78af585$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$6c9d1b3be4fca78af585$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$6c9d1b3be4fca78af585.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$6c9d1b3be4fca78af585.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$991cbec39515f5103c53$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$991cbec39515f5103c53$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$991cbec39515f5103c53$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$991cbec39515f5103c53.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$991cbec39515f5103c53.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a1305d864af55d7419b7$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a1305d864af55d7419b7$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a1305d864af55d7419b7.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a1305d864af55d7419b7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/src/main/scala/Api.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/src/main/scala/Server.scala" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/endpoint/src/main/scala/ApiAlg.scala" afterPath="$PROJECT_DIR$/endpoint/src/main/scala/UserEndpoint.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/scala/model/UserEntity.scala" afterPath="$PROJECT_DIR$/server/src/main/scala/model/UserRepository.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/client/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/client/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$.class" afterPath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe.class" afterPath="$PROJECT_DIR$/endpoint/target/scala-2.12/classes/circe.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/endpoint/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/endpoint/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/endpoint/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/endpoint/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/server/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/server/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/client-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/client-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/client.iml" afterPath="$PROJECT_DIR$/.idea/modules/client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/endpoint-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/endpoint-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/endpoint.iml" afterPath="$PROJECT_DIR$/.idea/modules/endpoint.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/server-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/server-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/server.iml" afterPath="$PROJECT_DIR$/.idea/modules/server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sbt_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sbt_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sbt_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sbt_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sources_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sources_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sources_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sources_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sources_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sources_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sources_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client$sources_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/org.arkmaxim/client_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sbt_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-compile.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-docs.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-optional.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-plugin.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-pom.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-provided.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-runtime.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-sources.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-test.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-compile.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-docs.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-optional.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-plugin.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-pom.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-provided.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-runtime.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-sources.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-test.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/org.arkmaxim-client_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/$global/ssExtractDependencies/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sbt_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sbt_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sbt_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sbt_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sources_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sources_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sources_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sources_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sources_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sources_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sources_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints$sources_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/org.arkmaxim/endpoints_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sbt_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-compile.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-docs.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-optional.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-plugin.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-pom.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-provided.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-runtime.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-sources.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-test.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints$sources_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-compile.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-docs.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-optional.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-plugin.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-pom.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-provided.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-runtime.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-sources.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-test.xml" afterPath="$PROJECT_DIR$/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="$PROJECT_DIR$/endpoint/target/streams/$global/ssExtractDependencies/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/endpoint/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/endpoint/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/endpoint/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/endpoint/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/endpoint/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/endpoint/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/endpoint/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/endpoint/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/endpoint/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/endpoint/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/endpoint/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoint/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/endpoint/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/scala/model/UserModel.scala" afterPath="$PROJECT_DIR$/server/src/main/scala/model/UserModel.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/scala/model/application.conf" afterPath="$PROJECT_DIR$/server/src/main/scala/model/application.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/scala/route/UserServiceRoute.scala" afterPath="$PROJECT_DIR$/server/src/main/scala/route/UserServiceRoute.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/scala/services/UserService.scala" afterPath="$PROJECT_DIR$/server/src/main/scala/services/UserService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/scala/util/DatabaseConfig.scala" afterPath="$PROJECT_DIR$/server/src/main/scala/util/DatabaseConfig.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sbt_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sbt_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sbt_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sbt_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sources_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sources_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sources_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sources_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sources_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sources_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sources_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server$sources_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/org.arkmaxim/server_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sbt_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-compile.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-docs.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-optional.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-plugin.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-pom.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-provided.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-runtime.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-sources.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-test.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server$sources_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-compile.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-docs.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-optional.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-plugin.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-pom.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-provided.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-runtime.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-sources.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-test.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/org.arkmaxim-server_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/$global/ssExtractDependencies/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/server/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/crudendpoint/crudendpoint$sbt_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/crudendpoint/crudendpoint$sbt_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/crudendpoint/crudendpoint$sbt_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/crudendpoint/crudendpoint$sbt_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/crudendpoint/crudendpoint$sources_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/crudendpoint/crudendpoint$sources_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/crudendpoint/crudendpoint$sources_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/crudendpoint/crudendpoint$sources_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint$sbt_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint$sbt_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint$sbt_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint$sbt_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint$sources_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint$sources_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint$sources_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint$sources_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/crudendpoint_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/crudendpoint-crudendpoint$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/crudendpoint-crudendpoint$sbt_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/crudendpoint-crudendpoint$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/crudendpoint-crudendpoint$sources_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint$sbt_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint$sources_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-crudendpoint_2.10-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -43,34 +447,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApiAlg.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/ApiAlg.scala">
+      <file leaf-file-name="UserServiceRoute.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/route/UserServiceRoute.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#15#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+      <file leaf-file-name="MainServer.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/route/MainServer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseConfig.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/DatabaseConfig.scala">
+      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="480">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,42 +486,10 @@
       <file leaf-file-name="UserModel.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/scala/model/UserModel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserEntity.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/scala/model/UserEntity.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/src/main/scala/services/UserService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#18#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceRoute.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/scala/route/UserServiceRoute.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#76#0" expanded="true" />
+                <element signature="e#22#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,36 +498,76 @@
       <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/scala/model/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <marker date="1490625218000" expanded="true" signature="10:178" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/scala/Server.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Api.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala">
+      <file leaf-file-name="UserService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/services/UserService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepository.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/model/UserRepository.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="e#21#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySQLDBImp.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/MySQLDBImp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseConfig.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/DatabaseConfig.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cry</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -164,20 +580,28 @@
         <option value="$PROJECT_DIR$/endpoints/src/main/scala/AssetAlg.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ApiAlg.scala" />
         <option value="$PROJECT_DIR$/endpoints/src/main/scala/ApiAlg.scala" />
-        <option value="$PROJECT_DIR$/endpoint/src/main/scala/ApiAlg.scala" />
         <option value="$PROJECT_DIR$/server/src/main/scala/Server.scala" />
         <option value="$PROJECT_DIR$/server/src/main/scala/Api.scala" />
         <option value="$PROJECT_DIR$/server/src/main/scala/Repository/exceptions.scala" />
         <option value="$PROJECT_DIR$/server/src/main/scala/Repository/UserRepository.scala" />
-        <option value="$PROJECT_DIR$/server/src/main/scala/model/application.conf" />
         <option value="$PROJECT_DIR$/server/src/main/scala/util/DatabaseService.scala" />
         <option value="$PROJECT_DIR$/server/src/main/scala/util/DBComponent.scala" />
-        <option value="$PROJECT_DIR$/server/src/main/scala/util/DatabaseConfig.scala" />
-        <option value="$PROJECT_DIR$/server/src/main/scala/model/UserModel.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/endpoint/src/main/scala/ApiAlg.scala" />
         <option value="$PROJECT_DIR$/server/src/main/scala/model/UserEntity.scala" />
+        <option value="$PROJECT_DIR$/endpoint/src/main/scala/circe.scala" />
+        <option value="$PROJECT_DIR$/endpoint/src/main/scala/UserEndpoint.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/services/MainService.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/route/MainServer.scala" />
+        <option value="$PROJECT_DIR$/endpoint/src/main/scala/ParseUser.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/server/src/main/scala/services/UserService.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/Main.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/model/UserModel.scala" />
         <option value="$PROJECT_DIR$/server/src/main/scala/route/UserServiceRoute.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/model/UserRepository.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/util/MySQLDBImp.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/model/application.conf" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/util/DatabaseConfig.scala" />
       </list>
     </option>
   </component>
@@ -188,10 +612,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="1680" />
     <option name="y" value="22" />
-    <option name="width" value="1676" />
-    <option name="height" value="1028" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -208,6 +632,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -217,8 +642,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CRUDEndpoint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -228,46 +653,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CRUDEndpoint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUDEndpoint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUDEndpoint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUDEndpoint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUDEndpoint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,10 +667,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,11 +792,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserService.scala" />
+              <option name="myItemId" value="DatabaseConfig.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="route" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserServiceRoute.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,6 +892,40 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="route" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserRepository.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -512,9 +991,19 @@
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserEntity.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -527,7 +1016,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="endpoint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -543,7 +1098,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="ParseUser.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -557,13 +1126,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUDEndpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -577,7 +1171,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="sbt&#9;FILE&#9;file:///Users/locnguyen/Desktop/CRUDEndpoint/build.sbt" />
+    <property name="SearchEverywhereHistoryKey" value=".sbt&#9;FILE&#9;file:///Users/locnguyen/Desktop/CRUDEndpoint/build.sbt&#10;userser&#9;FILE&#9;file:///Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/route/UserServiceRoute.scala&#10;sbt&#9;FILE&#9;file:///Users/locnguyen/Desktop/CRUDEndpoint/build.sbt" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -591,7 +1185,27 @@
       <recent name="$PROJECT_DIR$/endpoints/src/main/scala" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainServer">
+    <configuration default="false" name="MainServer" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="route.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="route.MainServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="server" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1023,9 +1637,17 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.MainServer" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.MainServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1490633800419" />
+    <option name="lastUpdateTimestamp" value="1491043590730" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1038,7 +1660,7 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="main" />
+                <option name="name" value="crudendpoint" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -1054,7 +1676,7 @@
                 <option name="path" value="$PROJECT_DIR$/server" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="main-build" />
+                <option name="name" value="crudendpoint-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -1100,6 +1722,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="85f3b74c-6b13-4e56-b33e-eee78876f917" name="Default" comment="" />
@@ -1116,16 +1741,24 @@
       <workItem from="1490619141713" duration="2603000" />
       <workItem from="1490621757069" duration="6675000" />
       <workItem from="1490630817703" duration="781000" />
-      <workItem from="1490631952033" duration="2142000" />
+      <workItem from="1490631952033" duration="4495000" />
+      <workItem from="1490710004493" duration="6914000" />
+      <workItem from="1490793066138" duration="1599000" />
+      <workItem from="1490794711644" duration="6689000" />
+      <workItem from="1490884849199" duration="8114000" />
+      <workItem from="1490898434055" duration="1532000" />
+      <workItem from="1490974193175" duration="7169000" />
+      <workItem from="1491019589657" duration="7318000" />
+      <workItem from="1491036633918" duration="7236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38820000" />
+    <option name="totallyTimeSpent" value="87744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1676" height="1028" extended-state="6" />
-    <editor active="true" />
+    <frame x="1680" y="22" width="1920" height="1058" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1141,15 +1774,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26590198" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26390293" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17601432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1177,12 +1810,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/ApiAlg.scala">
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Server.scala" />
+    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/UserEndpoint.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#28#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1195,39 +1830,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/BasicAuthentication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Endpoints.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/OptionalResponses.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Urls.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/BasicAuthentication.scala" />
+    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Endpoints.scala" />
+    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/OptionalResponses.scala" />
+    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Urls.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.julienrf/endpoints-algebra_2.12/srcs/endpoints-algebra_2.12-0.2.0-sources.jar!/endpoints/algebra/JsonEntities.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,112 +1845,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="101" column="6" lean-forward="false" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Server.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/ApiAlg.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/BasicAuthentication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Endpoints.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/OptionalResponses.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Urls.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.julienrf/endpoints-algebra_2.12/srcs/endpoints-algebra_2.12-0.2.0-sources.jar!/endpoints/algebra/JsonEntities.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.julienrf/endpoints-algebra_2.12/srcs/endpoints-algebra_2.12-0.2.0-sources.jar!/endpoints/algebra/Endpoints.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="101" column="6" lean-forward="false" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Server.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Server.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala" />
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1349,23 +1859,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Server.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/ApiAlg.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Server.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala" />
+    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/UserEndpoint.scala" />
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1373,7 +1869,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/ApiAlg.scala" />
+    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/UserEndpoint.scala" />
     <entry file="file://$PROJECT_DIR$/endpoints/src/main/scala/AssetAlg.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.julienrf/endpoints-algebra_2.12/srcs/endpoints-algebra_2.12-0.2.0-sources.jar!/endpoints/algebra/OptionalResponses.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -1396,39 +1892,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Urls.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/OptionalResponses.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Endpoints.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/BasicAuthentication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Urls.scala" />
+    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/OptionalResponses.scala" />
+    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/Endpoints.scala" />
+    <entry file="file://$PROJECT_DIR$/akka-http-server/src/main/scala/endpoints/akkahttp/server/BasicAuthentication.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.julienrf/endpoints-algebra_2.12/srcs/endpoints-algebra_2.12-0.2.0-sources.jar!/endpoints/algebra/JsonEntities.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,113 +1907,156 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="863">
           <caret line="101" column="6" lean-forward="false" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Repository/exceptions.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/DBComponent.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/DatabaseService.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Repository/UserRepository.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Server.scala" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/collection/parallel/Tasks.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/UserEndpoint.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#28#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/circe.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/services/MainService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Repository/exceptions.scala">
+    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/ParseUser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="465">
+          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="e#28#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/services/UserService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/route/MainServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/route/UserServiceRoute.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/MySQLDBImp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/scala/model/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/model/UserRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <marker date="1490625218000" expanded="true" signature="10:178" ph="{...}" />
+            <element signature="e#21#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/src/main/scala/ApiAlg.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Api.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Server.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/DBComponent.scala" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/DatabaseService.scala" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/DatabaseConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/Repository/UserRepository.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/scala/model/UserModel.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/model/UserEntity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/route/UserServiceRoute.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#15#76#0" expanded="true" />
+            <element signature="e#22#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/services/UserService.scala">
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/util/DatabaseConfig.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="e#18#78#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

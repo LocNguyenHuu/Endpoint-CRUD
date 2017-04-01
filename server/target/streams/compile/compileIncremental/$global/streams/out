@@ -1,24 +1,26 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/services/UserService.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/route/UserServiceRoute.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserEntity.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Api.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Server.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Api.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/services/UserService.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Server.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/route/UserServiceRoute.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserEntity.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Api.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/services/UserService.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Server.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/route/UserServiceRoute.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserEntity.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Api.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/services/UserService.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Server.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/route/UserServiceRoute.scala, /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserEntity.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Recompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 7 Scala sources to /Users/locnguyen/Desktop/CRUDEndpoint/server/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/MySQLDBImp.scala by /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserRepository.scala by /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/MySQLDBImp.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Main.scala by /Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserRepository.scala[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/locnguyen/Desktop/CRUDEndpoint/server/target/scala-2.12/classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 6f00fa4c, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 689ccb3e, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-feature[0m
 [0m[[0mdebug[0m] [0m	-deprecation[0m
@@ -35,82 +37,11 @@
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes:/Users/locnguyen/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/locnguyen/Desktop/CRUDEndpoint/server/target/scala-2.12/classes:/Users/locnguyen/Desktop/CRUDEndpoint/endpoint/target/scala-2.12/classes:/Users/locnguyen/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-2.1.0-M2.jar:/Users/locnguyen/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.6.4.jar:/Users/locnguyen/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.16.jar:/Users/locnguyen/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/Users/locnguyen/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.4.5.jar:/Users/locnguyen/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-core_2.12/jars/circe-core_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-numbers_2.12/jars/circe-numbers_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-0.9.0.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-0.9.0.jar:/Users/locnguyen/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/jars/simulacrum_2.12-0.10.0.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.1.jar:/Users/locnguyen/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-0.9.0.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-generic-extras_2.12/jars/circe-generic-extras_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-generic_2.12/jars/circe-generic_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.2.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-parser_2.12/jars/circe-parser_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-jawn_2.12/jars/circe-jawn_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/org.spire-math/jawn-parser_2.12/jars/jawn-parser_2.12-0.10.4.jar:/Users/locnguyen/.ivy2/cache/org.julienrf/endpoints-algebra_2.12/jars/endpoints-algebra_2.12-0.2.0.jar:/Users/locnguyen/.ivy2/cache/org.julienrf/endpoints-algebra-circe_2.12/jars/endpoints-algebra-circe_2.12-0.2.0.jar:/Users/locnguyen/.ivy2/cache/org.julienrf/endpoints-akka-http-server_2.12/jars/endpoints-akka-http-server_2.12-0.2.0.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.1.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.1.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/jars/akka-parsing_2.12-10.0.1.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.4.16.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.16.jar:/Users/locnguyen/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/locnguyen/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar:/Users/locnguyen/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/Users/locnguyen/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.2.1.jar:/Users/locnguyen/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar:/Users/locnguyen/.ivy2/cache/org.julienrf/endpoints-akka-http-server-circe_2.12/jars/endpoints-akka-http-server-circe_2.12-0.2.0.jar:/Users/locnguyen/.ivy2/cache/de.heikoseeberger/akka-http-circe_2.12/jars/akka-http-circe_2.12-1.11.0.jar[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Api.scala:11: constructor cannot be instantiated to expected type;[0m
-[0m[[31merror[0m] [0m found   : (T1, T2, T3)[0m
-[0m[[31merror[0m] [0m required: (UserId, GetUserRequest)[0m
-[0m[[31merror[0m] [0m		getUser.implementedBy{ case (username, password, _) => User(username, password) }[0m
-[0m[[31merror[0m] [0m		                            ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/Api.scala:11: type mismatch;[0m
-[0m[[31merror[0m] [0m found   : User[0m
-[0m[[31merror[0m] [0m required: GetUserResponse[0m
-[0m[[31merror[0m] [0m		getUser.implementedBy{ case (username, password, _) => User(username, password) }[0m
-[0m[[31merror[0m] [0m		                                                           ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserEntity.scala:3: object mindrot is not a member of package org[0m
-[0m[[31merror[0m] [0mimport org.mindrot.jbcrypt.BCrypt[0m
-[0m[[31merror[0m] [0m           ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserEntity.scala:11: not found: value BCrypt[0m
-[0m[[31merror[0m] [0m	def withHashedPassword(): UserEntity = this.copy(password = BCrypt.hashpw(password, BCrypt.gensalt()))[0m
-[0m[[31merror[0m] [0m	                                                            ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserEntity.scala:11: not found: value BCrypt[0m
-[0m[[31merror[0m] [0m	def withHashedPassword(): UserEntity = this.copy(password = BCrypt.hashpw(password, BCrypt.gensalt()))[0m
-[0m[[31merror[0m] [0m	                                                                                    ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserEntity.scala:16: not found: value BCrypt[0m
-[0m[[31merror[0m] [0m		UserEntity(user.id, username.getOrElse(user.username), password.map(ps => BCrypt.hashpw(ps, BCrypt.gensalt())).getOrElse(user.password))[0m
-[0m[[31merror[0m] [0m		                                                                          ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserEntity.scala:16: not found: value BCrypt[0m
-[0m[[31merror[0m] [0m		UserEntity(user.id, username.getOrElse(user.username), password.map(ps => BCrypt.hashpw(ps, BCrypt.gensalt())).getOrElse(user.password))[0m
-[0m[[31merror[0m] [0m		                                                                                            ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala:9: value api is not a member of object scala.slick.driver.MySQLDriver[0m
-[0m[[31merror[0m] [0m	import driver.api._[0m
-[0m[[31merror[0m] [0m	              ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala:13: not found: type Session[0m
-[0m[[31merror[0m] [0m	implicit val session: Session = db.createSession()[0m
-[0m[[31merror[0m] [0m	                      ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:13: value api is not a member of object scala.slick.driver.MySQLDriver[0m
-[0m[[31merror[0m] [0m	import driver.api._[0m
-[0m[[31merror[0m] [0m	              ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:15: not found: type Table[0m
-[0m[[31merror[0m] [0m	class Users(tag: Tag) extends Table[UserEntity](tag, "users") {[0m
-[0m[[31merror[0m] [0m	                              ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:15: not found: type Tag[0m
-[0m[[31merror[0m] [0m	class Users(tag: Tag) extends Table[UserEntity](tag, "users") {[0m
-[0m[[31merror[0m] [0m	                 ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:15: no arguments allowed for nullary constructor Object: ()Object[0m
-[0m[[31merror[0m] [0m	class Users(tag: Tag) extends Table[UserEntity](tag, "users") {[0m
-[0m[[31merror[0m] [0m	                                                ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:16: not found: value column[0m
-[0m[[31merror[0m] [0m		def id = column[Option[Long]]("id", O.PrimaryKey, O.AutoInc)[0m
-[0m[[31merror[0m] [0m		         ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:16: not found: value O[0m
-[0m[[31merror[0m] [0m		def id = column[Option[Long]]("id", O.PrimaryKey, O.AutoInc)[0m
-[0m[[31merror[0m] [0m		                                    ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:16: not found: value O[0m
-[0m[[31merror[0m] [0m		def id = column[Option[Long]]("id", O.PrimaryKey, O.AutoInc)[0m
-[0m[[31merror[0m] [0m		                                                  ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:17: not found: value column[0m
-[0m[[31merror[0m] [0m		def username = column[String]("username")[0m
-[0m[[31merror[0m] [0m		               ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:18: not found: value column[0m
-[0m[[31merror[0m] [0m		def password = column[String]("password")[0m
-[0m[[31merror[0m] [0m		               ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/model/UserModel.scala:23: not found: value TableQuery[0m
-[0m[[31merror[0m] [0m	protected val users = TableQuery[Users][0m
-[0m[[31merror[0m] [0m	                      ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/route/UserServiceRoute.scala:9: class SecurityDirectives needs to be a trait to be mixed in[0m
-[0m[[31merror[0m] [0mtrait UsersServiceRoute extends UsersService with SecurityDirectives {[0m
-[0m[[31merror[0m] [0m                                                  ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/services/UserService.scala:14: value api is not a member of object scala.slick.driver.MySQLDriver[0m
-[0m[[31merror[0m] [0m	import driver.api._[0m
-[0m[[31merror[0m] [0m	              ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/util/DatabaseConfig.scala:11: not found: value Database[0m
-[0m[[31merror[0m] [0m	def db = Database.forConfig("database")[0m
-[0m[[31merror[0m] [0m	         ^[0m
-[0m[[31merror[0m] [0m/Users/locnguyen/Desktop/CRUDEndpoint/server/src/main/scala/services/UserService.scala:24: Cannot find an implicit ExecutionContext. You might pass[0m
-[0m[[31merror[0m] [0man (implicit ec: ExecutionContext) parameter to your method[0m
-[0m[[31merror[0m] [0mor import scala.concurrent.ExecutionContext.Implicits.global.[0m
-[0m[[31merror[0m] [0m	def updateUser(id: Long, userUpdate: UserEntityUpdate): Future[Option[UserEntity]] = getUserById(id).flatMap {[0m
-[0m[[31merror[0m] [0m	                                                                                                             ^[0m
-[0m[[31merror[0m] [0m23 errors found[0m
-[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
-[0m[[31merror[0m] [0m(server/compile:[31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0mdebug[0m] [0m	/Users/locnguyen/Desktop/CRUDEndpoint/server/target/scala-2.12/classes:/Users/locnguyen/Desktop/CRUDEndpoint/endpoint/target/scala-2.12/classes:/Users/locnguyen/.ivy2/cache/org.mindrot/jbcrypt/jars/jbcrypt-0.4.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.0.jar:/Users/locnguyen/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.10.jar:/Users/locnguyen/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/Users/locnguyen/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.21.jar:/Users/locnguyen/.ivy2/cache/io.monix/monix-types_2.12/jars/monix-types_2.12-2.2.4.jar:/Users/locnguyen/.ivy2/cache/io.monix/monix-execution_2.12/jars/monix-execution_2.12-2.2.4.jar:/Users/locnguyen/.ivy2/cache/io.monix/monix-eval_2.12/jars/monix-eval_2.12-2.2.4.jar:/Users/locnguyen/.ivy2/cache/io.monix/monix-reactive_2.12/jars/monix-reactive_2.12-2.2.4.jar:/Users/locnguyen/.ivy2/cache/org.jctools/jctools-core/bundles/jctools-core-2.0.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-core_2.12/jars/circe-core_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-numbers_2.12/jars/circe-numbers_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-0.9.0.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-0.9.0.jar:/Users/locnguyen/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/jars/simulacrum_2.12-0.10.0.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.1.jar:/Users/locnguyen/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar:/Users/locnguyen/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-0.9.0.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-generic-extras_2.12/jars/circe-generic-extras_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-generic_2.12/jars/circe-generic_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.2.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-parser_2.12/jars/circe-parser_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/io.circe/circe-jawn_2.12/jars/circe-jawn_2.12-0.7.0.jar:/Users/locnguyen/.ivy2/cache/org.spire-math/jawn-parser_2.12/jars/jawn-parser_2.12-0.10.4.jar:/Users/locnguyen/.ivy2/cache/org.julienrf/endpoints-algebra_2.12/jars/endpoints-algebra_2.12-0.2.0.jar:/Users/locnguyen/.ivy2/cache/org.julienrf/endpoints-algebra-circe_2.12/jars/endpoints-algebra-circe_2.12-0.2.0.jar:/Users/locnguyen/.ivy2/cache/org.julienrf/endpoints-akka-http-server_2.12/jars/endpoints-akka-http-server_2.12-0.2.0.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.1.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.1.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/jars/akka-parsing_2.12-10.0.1.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.4.16.jar:/Users/locnguyen/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.16.jar:/Users/locnguyen/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/locnguyen/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar:/Users/locnguyen/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.2.1.jar:/Users/locnguyen/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar:/Users/locnguyen/.ivy2/cache/org.julienrf/endpoints-akka-http-server-circe_2.12/jars/endpoints-akka-http-server-circe_2.12-0.2.0.jar:/Users/locnguyen/.ivy2/cache/de.heikoseeberger/akka-http-circe_2.12/jars/akka-http-circe_2.12-1.11.0.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 0.219377422 s[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
