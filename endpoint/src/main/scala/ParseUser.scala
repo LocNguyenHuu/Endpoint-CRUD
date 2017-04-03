@@ -12,7 +12,7 @@ import scala.concurrent.Future
 /**
 	* Created by locnguyen on 3/28/17.
 	*/
-case class User(id: Int, username: String, password: String)
+case class User(id: Option[Long] = None, username: String, password: String)
 
 case class UserId(uuid: UUID) {
 	def idString: String = uuid.toString
@@ -37,7 +37,7 @@ case class UserId(uuid: UUID) {
 //}
 
 final case class GetAllUsersResponse(
-	userandIds: Seq[(User)]
+	user: Future[Seq[User]]
 )
 
 object GetAllUsersResponse {

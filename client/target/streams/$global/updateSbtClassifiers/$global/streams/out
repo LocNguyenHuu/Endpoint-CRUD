@@ -1774,9 +1774,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 223ms :: artifacts dl 10ms
+[debug] :: resolution report :: resolve 222ms :: artifacts dl 8ms
 [debug] 	report for org.arkmaxim#client$sbt_2.10;1.0 default produced in /Users/locnguyen/Desktop/CRUDEndpoint/client/target/resolution-cache/reports/org.arkmaxim-client$sbt_2.10-default.xml
-[debug] 	resolve done (223ms resolve - 10ms download)
+[debug] 	resolve done (222ms resolve - 8ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: org.arkmaxim#client$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2470,6 +2470,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 72ms :: artifacts dl 11ms
+[debug] :: resolution report :: resolve 59ms :: artifacts dl 7ms
 [debug] 	report for org.arkmaxim#client$sources_2.10;1.0 default produced in /Users/locnguyen/Desktop/CRUDEndpoint/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.10-default.xml
-[debug] 	resolve done (72ms resolve - 11ms download)
+[debug] 	resolve done (59ms resolve - 7ms download)

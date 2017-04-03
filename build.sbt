@@ -22,9 +22,11 @@ val commonSettings = Seq(
 	libraryDependencies ++= Seq(
 		"org.mindrot" % "jbcrypt" % "0.4",
 		"com.typesafe.slick" % "slick_2.11" % "3.1.0",
-		"mysql" % "mysql-connector-java" % "5.1.21",
-		"io.monix" %% "monix" % "2.2.4"
-),
+		"mysql" % "mysql-connector-java" % "5.1.34",
+		"io.monix" %% "monix" % "2.2.4",
+		"org.postgresql" % "postgresql" % "9.4-1201-jdbc41",
+		"com.zaxxer" % "HikariCP" % "2.4.5"
+	),
 	resolvers += "typesafe" at "http://repo.typesafe.com/typesafe/releases/"
 )
 
@@ -38,7 +40,7 @@ lazy val endpoint = project.in(file("endpoint"))
 			"io.circe" %% "circe-generic-extras" % "0.7.0",
 			"io.circe"  %%  "circe-generic"  %  "0.7.0",
 			"io.circe"  %%  "circe-parser"  %  "0.7.0",
-// core API
+			// core API
 			"org.julienrf" %% "endpoints-algebra" % "0.2.0",
 			// (optional) JSON serialization using circe.io
 			"org.julienrf" %% "endpoints-algebra-circe" % "0.2.0"

@@ -4,7 +4,7 @@
 		module="endpoints$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170401174625"
+		publication="20170403211726"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

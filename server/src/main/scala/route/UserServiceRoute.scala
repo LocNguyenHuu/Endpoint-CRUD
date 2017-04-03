@@ -11,9 +11,9 @@ import endpoint.scala.api.UserEndpoint
 import endpoints.akkahttp.server._
 import monix.eval.Task
 import monix.execution.Scheduler
+import restapi.services.UserService
 import slick.backend.DatabaseConfig
 
-import scala.model.UserRepository
 import scala.concurrent.Future
 import scala.io.StdIn
 import scala.util.Random
@@ -22,12 +22,11 @@ import ExecutionContext.Implicits.global
 /**
 	* Created by locnguyen on 3/27/17.
 	*/
-trait UserServer extends UserEndpoint with Endpoints with CirceEntities {
-	this: UserRepository =>
+class UserServer(val userService: UserService)(implicit executionContext: ExecutionContext) extends UserEndpoint with Endpoints with CirceEntities {
 
-	val routes = getAllUsers.implementedByAsync { _ =>
-			findAll().map { responseData =>
-			GetAllUsersResponse(responseData)
-		}
-	}
+	import userService._
+	
+	val route = getAllUsers.implementedByAsync { _ =>
+		userService.getUsers().map(GetAllUsersResponse.apply)
+	}.runAsync
 }

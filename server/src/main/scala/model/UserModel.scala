@@ -4,31 +4,37 @@ package scala.model
 import endpoint.scala.api._
 import slick.lifted.Tag
 import slick.driver.MySQLDriver.api._
-import util.DatabaseConfig
+import slick.driver.MySQLDriver.backend.Database
 import endpoint.parseuser.User
+import model.UserEntity
+import slick.backend.DatabaseConfig
+import slick.dbio.DBIOAction
+import slick.driver.{JdbcProfile, MySQLDriver}
+import util.DatabaseService
+
+import scala.concurrent.Future
 
 
 /**
 	* Created by locnguyen on 3/27/17.
 	*/
 
-//case class User(id: Int, username: String, password: String)
+trait UserEntityTable {
 
-trait UsersTables { this: DatabaseConfig =>
+	protected val databaseService: DatabaseService
+	import databaseService.driver.api._
 
-	import driver.api._
-
-	class Users(tag: Tag) extends Table[User](tag, "Users") {
-		def id = column[Int]("id", O.PrimaryKey)
+	class Users(tag: Tag) extends Table[UserEntity](tag, "users") {
+		def id = column[Option[Long]]("id", O.PrimaryKey, O.AutoInc)
 		def username = column[String]("username")
 		def password = column[String]("password")
 
-		def * = (id, username, password) <> (User.tupled, User.unapply)
+		def * = (id, username, password) <> ((UserEntity.apply _).tupled, UserEntity.unapply)
 	}
 
-	lazy val users = TableQuery[Users]
-}
+	protected val users = TableQuery[Users]
 
+}
 
 
 

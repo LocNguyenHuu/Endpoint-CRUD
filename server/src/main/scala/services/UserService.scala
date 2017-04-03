@@ -1,21 +1,16 @@
-//package scala.services
-//
-//import com.sun.javafx.tk.Toolkit
-//import endpoint.parseuser.UserId
-//import endpoint.parseuser.User
-//
-//import scala.model._
-//import org.mindrot.jbcrypt.BCrypt
-//import monix.eval.Task
-//
-//import scala.concurrent._
-//import scala.model
-//
-///**
-//	* Created by locnguyen on 3/27/17.
-//	*/
-//class UserService(userRepo: UserRepository) {
-//	def getAll(): Future[List[User]] = {
-//		userRepo.findAll()
-//	}
-//}
+package restapi.services
+
+import model.UserEntity
+import util.DatabaseService
+
+import scala.concurrent.{ExecutionContext, Future}
+import scala.model.UserEntityTable
+
+class UserService(val databaseService: DatabaseService)(implicit executionContext: ExecutionContext)
+extends UserEntityTable {
+
+	import databaseService._
+	import databaseService.driver.api._
+
+	def getUsers(): Future[Seq[UserEntity]] = db.run(users.result)
+}

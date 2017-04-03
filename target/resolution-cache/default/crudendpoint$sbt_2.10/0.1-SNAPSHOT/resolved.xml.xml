@@ -4,7 +4,7 @@
 		module="crudendpoint$sbt_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170401174629"
+		publication="20170403211723"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

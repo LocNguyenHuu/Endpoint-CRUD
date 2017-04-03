@@ -102,16 +102,16 @@
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.typesafe.slick#slick_2.11;3.1.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[info] Resolving mysql#mysql-connector-java;5.1.21 ...
-[debug] sbt-chain: Checking cache for: dependency: mysql#mysql-connector-java;5.1.21 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.21
-[debug] 	found mysql#mysql-connector-java;5.1.21 in sbt-chain
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->runtime]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->compile]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->master]
+[info] Resolving mysql#mysql-connector-java;5.1.34 ...
+[debug] sbt-chain: Checking cache for: dependency: mysql#mysql-connector-java;5.1.34 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.34
+[debug] 	found mysql#mysql-connector-java;5.1.34 in sbt-chain
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -329,6 +329,36 @@
 [debug] == resolving dependencies io.monix#monix_2.12;2.2.4->io.monix#monix-reactive_2.12;2.2.4 [runtime->runtime(*)]
 [debug] == resolving dependencies io.monix#monix_2.12;2.2.4->io.monix#monix-reactive_2.12;2.2.4 [runtime->compile]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[info] Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+[debug] sbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.4-1201-jdbc41 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.postgresql#postgresql;9.4-1201-jdbc41
+[debug] 	found org.postgresql#postgresql;9.4-1201-jdbc41 in sbt-chain
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[info] Resolving com.zaxxer#HikariCP;2.4.5 ...
+[debug] sbt-chain: Checking cache for: dependency: com.zaxxer#HikariCP;2.4.5 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.zaxxer#HikariCP;2.4.5
+[debug] 	found com.zaxxer#HikariCP;2.4.5 in sbt-chain
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->compile]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
+[info] Resolving org.slf4j#slf4j-api;1.7.16 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.16 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.16
+[debug] 	found org.slf4j#slf4j-api;1.7.16 in sbt-chain
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->runtime(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.circe#circe-core_2.12;0.7.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -1208,14 +1238,14 @@
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.typesafe.slick#slick_2.11;3.1.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->runtime]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->compile]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -1413,6 +1443,26 @@
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->compile]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->compile]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.circe#circe-core_2.12;0.7.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -2245,16 +2295,16 @@
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.typesafe.slick#slick_2.11;3.1.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->runtime]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->compile]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -2464,6 +2514,30 @@
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->compile]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->compile]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.circe#circe-core_2.12;0.7.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -3345,7 +3419,7 @@
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.typesafe.slick#slick_2.11;3.1.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -3354,9 +3428,9 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->runtime]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->compile]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -3578,6 +3652,34 @@
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->compile]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->compile]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.circe#circe-core_2.12;0.7.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -4492,7 +4594,7 @@
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.typesafe.slick#slick_2.11;3.1.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -4501,9 +4603,9 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->runtime]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->compile]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -4725,6 +4827,34 @@
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->compile]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->compile]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.circe#circe-core_2.12;0.7.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -5663,7 +5793,7 @@
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.typesafe.slick#slick_2.11;3.1.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -5676,9 +5806,9 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->runtime]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->compile]
-[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.21 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->mysql#mysql-connector-java;5.1.34 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -5924,6 +6054,42 @@
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies io.monix#monix-reactive_2.12;2.2.4->org.jctools#jctools-core;2.0 [runtime->compile]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.monix#monix_2.12;2.2.4 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->runtime]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->compile]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
+[debug] == resolving dependencies com.zaxxer#HikariCP;2.4.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
+[debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->com.zaxxer#HikariCP;2.4.5 [compile->master]
 [debug] == resolving dependencies org.arkmaxim#endpoints_2.12;1.0->io.circe#circe-core_2.12;0.7.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -6955,14 +7121,15 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.1!scala-library.jar
 [debug] 	[NOT REQUIRED] org.mindrot#jbcrypt;0.4!jbcrypt.jar
 [debug] 	[NOT REQUIRED] com.typesafe.slick#slick_2.11;3.1.0!slick_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] mysql#mysql-connector-java;5.1.21!mysql-connector-java.jar
+[debug] 	[NOT REQUIRED] mysql#mysql-connector-java;5.1.34!mysql-connector-java.jar
+[debug] 	[NOT REQUIRED] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.jar
+[debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;2.4.5!HikariCP.jar(bundle)
 [debug] 	[NOT REQUIRED] io.circe#circe-core_2.12;0.7.0!circe-core_2.12.jar
 [debug] 	[NOT REQUIRED] io.circe#circe-generic-extras_2.12;0.7.0!circe-generic-extras_2.12.jar
 [debug] 	[NOT REQUIRED] io.circe#circe-generic_2.12;0.7.0!circe-generic_2.12.jar
 [debug] 	[NOT REQUIRED] io.circe#circe-parser_2.12;0.7.0!circe-parser_2.12.jar
 [debug] 	[NOT REQUIRED] org.julienrf#endpoints-algebra_2.12;0.2.0!endpoints-algebra_2.12.jar
 [debug] 	[NOT REQUIRED] org.julienrf#endpoints-algebra-circe_2.12;0.2.0!endpoints-algebra-circe_2.12.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.10!slf4j-api.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
 [debug] 	[NOT REQUIRED] io.monix#monix-types_2.12;2.2.4!monix-types_2.12.jar
@@ -6970,6 +7137,7 @@
 [debug] 	[NOT REQUIRED] io.monix#monix-eval_2.12;2.2.4!monix-eval_2.12.jar
 [debug] 	[NOT REQUIRED] io.monix#monix-reactive_2.12;2.2.4!monix-reactive_2.12.jar
 [debug] 	[NOT REQUIRED] org.jctools#jctools-core;2.0!jctools-core.jar(bundle)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.16!slf4j-api.jar
 [debug] 	[NOT REQUIRED] io.circe#circe-numbers_2.12;0.7.0!circe-numbers_2.12.jar
 [debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.12;0.9.0!cats-core_2.12.jar
 [debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.12;0.9.0!cats-macros_2.12.jar
@@ -6984,7 +7152,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar
-[debug] :: resolution report :: resolve 1101ms :: artifacts dl 25ms
+[debug] :: resolution report :: resolve 956ms :: artifacts dl 22ms
 [debug] 	report for org.arkmaxim#endpoints_2.12;1.0 compile produced in /Users/locnguyen/Desktop/CRUDEndpoint/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-compile.xml
 [debug] 	report for org.arkmaxim#endpoints_2.12;1.0 runtime produced in /Users/locnguyen/Desktop/CRUDEndpoint/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-runtime.xml
 [debug] 	report for org.arkmaxim#endpoints_2.12;1.0 test produced in /Users/locnguyen/Desktop/CRUDEndpoint/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-test.xml
@@ -6998,7 +7166,7 @@
 [debug] 	report for org.arkmaxim#endpoints_2.12;1.0 docs produced in /Users/locnguyen/Desktop/CRUDEndpoint/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-docs.xml
 [debug] 	report for org.arkmaxim#endpoints_2.12;1.0 pom produced in /Users/locnguyen/Desktop/CRUDEndpoint/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-pom.xml
 [debug] 	report for org.arkmaxim#endpoints_2.12;1.0 scala-tool produced in /Users/locnguyen/Desktop/CRUDEndpoint/endpoint/target/resolution-cache/reports/org.arkmaxim-endpoints_2.12-scala-tool.xml
-[debug] 	resolve done (1101ms resolve - 25ms download)
+[debug] 	resolve done (956ms resolve - 22ms download)
 [info] Done updating.
 [warn] There may be incompatibilities among your library dependencies.
 [warn] Here are some of the libraries that were evicted:

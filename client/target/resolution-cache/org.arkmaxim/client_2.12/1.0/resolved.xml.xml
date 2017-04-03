@@ -4,7 +4,7 @@
 		module="client_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170401174623"
+		publication="20170403211721"
 	>
 		<description>
 		client
@@ -36,8 +36,10 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.mindrot" name="jbcrypt" rev="0.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.slick" name="slick_2.11" rev="3.1.0" conf="compile->default(compile)"/>
-		<dependency org="mysql" name="mysql-connector-java" rev="5.1.21" conf="compile->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.34" conf="compile->default(compile)"/>
 		<dependency org="io.monix" name="monix_2.12" rev="2.2.4" conf="compile->default(compile)"/>
+		<dependency org="org.postgresql" name="postgresql" rev="9.4-1201-jdbc41" conf="compile->default(compile)"/>
+		<dependency org="com.zaxxer" name="HikariCP" rev="2.4.5" conf="compile->default(compile)"/>
 		<dependency org="org.julienrf" name="endpoints-xhr-client_sjs0.6_2.11" rev="0.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.julienrf" name="endpoints-xhr-client-circe_sjs0.6_2.11" rev="0.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.julienrf" name="endpoints-xhr-client-faithful_sjs0.6_2.11" rev="0.2.0" conf="compile->default(compile)"/>
