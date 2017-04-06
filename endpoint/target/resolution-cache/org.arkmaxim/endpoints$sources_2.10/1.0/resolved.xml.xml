@@ -4,7 +4,7 @@
 		module="endpoints$sources_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170403211726"
+		publication="20170406095404"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -21,6 +21,9 @@
 		<dependency org="org.scala-sbt" name="compiler-ivy-integration" rev="0.13.13" transitive="false" conf="default->compile,default(compile)">
 			<artifact name="compiler-ivy-integration" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
+		<dependency org="org.tukaani" name="xz" rev="1.0" transitive="false" conf="default->master(*),default,compile,runtime(*),runtime,default(compile),compile(*),master">
+			<artifact name="xz" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="org.scala-sbt" name="classpath" rev="0.13.13" transitive="false" conf="default->compile,default(compile)">
 			<artifact name="classpath" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -33,6 +36,9 @@
 		<dependency org="org.scala-sbt" name="logic" rev="0.13.13" transitive="false" conf="default->compile,default(compile)">
 			<artifact name="logic" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
+		<dependency org="org.apache.ant" name="ant-launcher" rev="1.9.6" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="ant-launcher" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="org.scalamacros" name="quasiquotes_2.10" rev="2.0.1" transitive="false" conf="default->master(*),compile,runtime(*),runtime,compile(*),master">
 			<artifact name="quasiquotes_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -41,6 +47,9 @@
 		</dependency>
 		<dependency org="org.scala-sbt" name="serialization_2.10" rev="0.1.2" transitive="false" conf="default->default,compile,runtime,default(compile),master">
 			<artifact name="serialization_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.sbt" name="sbt-native-packager" rev="1.1.4" transitive="false" conf="default->compile,default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-native-packager" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scala-lang.modules" name="scala-pickling_2.10" rev="0.10.1" transitive="false" conf="default->master(*),compile,runtime(*),runtime,compile(*),master">
 			<artifact name="scala-pickling_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -77,6 +86,9 @@
 		</dependency>
 		<dependency org="org.scala-sbt" name="control" rev="0.13.13" transitive="false" conf="default->compile,default(compile)">
 			<artifact name="control" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="io.spray" name="sbt-revolver" rev="0.8.0" transitive="false" conf="default->compile,default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-revolver" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scala-sbt" name="actions" rev="0.13.13" transitive="false" conf="default->compile,default(compile)">
 			<artifact name="actions" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -126,6 +138,9 @@
 		<dependency org="org.scala-sbt" name="template-resolver" rev="0.1" transitive="false" conf="default->default,compile,runtime,default(compile),master">
 			<artifact name="template-resolver" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
+		<dependency org="org.apache.ant" name="ant" rev="1.9.6" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="ant" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="org.scala-tools.sbinary" name="sbinary_2.10" rev="0.4.2" transitive="false" conf="default->compile,default(compile)">
 			<artifact name="sbinary_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -164,6 +179,9 @@
 		</dependency>
 		<dependency org="org.scala-sbt" name="interface" rev="0.13.13" transitive="false" conf="default->compile,default(compile)" component="xsbti">
 			<artifact name="interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-compress" rev="1.4.1" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="commons-compress" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scala-sbt" name="logging" rev="0.13.13" transitive="false" conf="default->compile,default(compile)">
 			<artifact name="logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>

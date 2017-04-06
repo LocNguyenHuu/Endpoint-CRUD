@@ -1719,10 +1719,98 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->io.spray#sbt-revolver;0.8.0 [default->default(compile)]
+[info] Resolving io.spray#sbt-revolver;0.8.0 ...
+[debug] sbt-chain: Checking cache for: dependency: io.spray#sbt-revolver;0.8.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: io.spray#sbt-revolver;0.8.0
+[debug] 	found io.spray#sbt-revolver;0.8.0 in sbt-chain
+[debug] 	[0.8.0] io.spray#sbt-revolver;0.8.0
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->com.typesafe.sbt#sbt-native-packager;1.1.4 [default->default(compile)]
+[info] Resolving com.typesafe.sbt#sbt-native-packager;1.1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-native-packager;1.1.4 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-native-packager;1.1.4
+[debug] 	found com.typesafe.sbt#sbt-native-packager;1.1.4 in sbt-chain
+[debug] 	[1.1.4] com.typesafe.sbt#sbt-native-packager;1.1.4
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.1.4->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[info] Resolving org.apache.commons#commons-compress;1.4.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-compress;1.4.1 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1
+[debug] 	found org.apache.commons#commons-compress;1.4.1 in sbt-chain
+[debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.1.4->org.apache.commons#commons-compress;1.4.1 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.1.4->org.apache.commons#commons-compress;1.4.1 [compile->compile]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[info] Resolving org.tukaani#xz;1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.tukaani#xz;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.0
+[debug] 	found org.tukaani#xz;1.0 in sbt-chain
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->runtime]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.1.4->org.apache.commons#commons-compress;1.4.1 [compile->master]
+[debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.1.4->org.apache.ant#ant;1.9.6 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[info] Resolving org.apache.ant#ant;1.9.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant;1.9.6 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant;1.9.6
+[debug] 	found org.apache.ant#ant;1.9.6 in sbt-chain
+[debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.1.4->org.apache.ant#ant;1.9.6 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.1.4->org.apache.ant#ant;1.9.6 [compile->compile]
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
+[info] Resolving org.apache.ant#ant-launcher;1.9.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-launcher;1.9.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant-launcher;1.9.6
+[debug] 	found org.apache.ant#ant-launcher;1.9.6 in sbt-chain
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->compile]
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->runtime]
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->compile]
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->master]
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.1.4->org.apache.ant#ant;1.9.6 [compile->master]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.tukaani#xz;1.0 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.tukaani#xz;1.0 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.tukaani#xz;1.0 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.tukaani#xz;1.0 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.ant#ant;1.9.6 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.ant#ant;1.9.6 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.ant#ant;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.ant#ant;1.9.6 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sbt_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->master]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.13!sbt.jar
+[debug] 	[NOT REQUIRED] io.spray#sbt-revolver;0.8.0!sbt-revolver.jar
+[debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-native-packager;1.1.4!sbt-native-packager.jar
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar
+[debug] 	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar
+[debug] 	[NOT REQUIRED] org.apache.ant#ant;1.9.6!ant.jar
+[debug] 	[NOT REQUIRED] org.apache.ant#ant-launcher;1.9.6!ant-launcher.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.13!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.13!compiler-interface.jar
@@ -1774,9 +1862,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 222ms :: artifacts dl 8ms
+[debug] :: resolution report :: resolve 328ms :: artifacts dl 14ms
 [debug] 	report for org.arkmaxim#client$sbt_2.10;1.0 default produced in /Users/locnguyen/Desktop/CRUDEndpoint/client/target/resolution-cache/reports/org.arkmaxim-client$sbt_2.10-default.xml
-[debug] 	resolve done (222ms resolve - 8ms download)
+[debug] 	resolve done (328ms resolve - 14ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: org.arkmaxim#client$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -1811,6 +1899,29 @@
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-ivy-integration;0.13.13
 [debug] 	found org.scala-sbt#compiler-ivy-integration;0.13.13 in sbt-chain
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#compiler-ivy-integration;0.13.13 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[info] Resolving org.tukaani#xz;1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.tukaani#xz;1.0 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.0
+[debug] 	found org.tukaani#xz;1.0 in sbt-chain
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->default]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->runtime(*)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->compile(*)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.tukaani#xz;1.0 [default->master]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#classpath;0.13.13 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1853,6 +1964,29 @@
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logic;0.13.13
 [debug] 	found org.scala-sbt#logic;0.13.13 in sbt-chain
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#logic;0.13.13 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[info] Resolving org.apache.ant#ant-launcher;1.9.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-launcher;1.9.6 {default=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant-launcher;1.9.6
+[debug] 	found org.apache.ant#ant-launcher;1.9.6 in sbt-chain
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->runtime(*)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->master(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->compile(*)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant-launcher;1.9.6 [default->master]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1896,6 +2030,16 @@
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->com.typesafe.sbt#sbt-native-packager;1.1.4 [default->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[info] Resolving com.typesafe.sbt#sbt-native-packager;1.1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-native-packager;1.1.4 {default=[compile, default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-native-packager;1.1.4
+[debug] 	found com.typesafe.sbt#sbt-native-packager;1.1.4 in sbt-chain
+[debug] 	[1.1.4] com.typesafe.sbt#sbt-native-packager;1.1.4
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->com.typesafe.sbt#sbt-native-packager;1.1.4 [default->default(compile)]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2045,6 +2189,16 @@
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#control;0.13.13
 [debug] 	found org.scala-sbt#control;0.13.13 in sbt-chain
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#control;0.13.13 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->io.spray#sbt-revolver;0.8.0 [default->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[info] Resolving io.spray#sbt-revolver;0.8.0 ...
+[debug] sbt-chain: Checking cache for: dependency: io.spray#sbt-revolver;0.8.0 {default=[compile, default(compile)]}
+[debug] sbt-chain: module revision found in cache: io.spray#sbt-revolver;0.8.0
+[debug] 	found io.spray#sbt-revolver;0.8.0 in sbt-chain
+[debug] 	[0.8.0] io.spray#sbt-revolver;0.8.0
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->io.spray#sbt-revolver;0.8.0 [default->default(compile)]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#actions;0.13.13 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2242,6 +2396,25 @@
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->compile]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->master]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[info] Resolving org.apache.ant#ant;1.9.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant;1.9.6 {default=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant;1.9.6
+[debug] 	found org.apache.ant#ant;1.9.6 in sbt-chain
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.ant#ant;1.9.6 [default->master]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2406,6 +2579,25 @@
 [debug] 	found org.scala-sbt#interface;0.13.13 in sbt-chain
 [debug] 	[0.13.13] org.scala-sbt#interface;0.13.13
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#interface;0.13.13 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
+[info] Resolving org.apache.commons#commons-compress;1.4.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-compress;1.4.1 {default=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1
+[debug] 	found org.apache.commons#commons-compress;1.4.1 in sbt-chain
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->default(compile)]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->runtime]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->compile]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->master]
+[debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.apache.commons#commons-compress;1.4.1 [default->master]
 [debug] == resolving dependencies org.arkmaxim#client$sources_2.10;1.0->org.scala-sbt#logging;0.13.13 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2421,13 +2613,16 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.13!main.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#io;0.13.13!io.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-ivy-integration;0.13.13!compiler-ivy-integration.jar(src)
+[debug] 	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.13!classpath.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.11!jansi.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#run;0.13.13!run.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.13!logic.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.ant#ant-launcher;1.9.6!ant-launcher.jar(src)
 [debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#cross;0.13.13!cross.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#serialization_2.10;0.1.2!serialization_2.10.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-native-packager;1.1.4!sbt-native-packager.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-pickling_2.10;0.10.1!scala-pickling_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#persist;0.13.13!persist.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.13!compiler-interface.jar(src)
@@ -2440,6 +2635,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-2cf13e211b2cb31f0d3b317289dca70eca3362f6!ivy.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.13!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#control;0.13.13!control.jar(src)
+[debug] 	[NOT REQUIRED] io.spray#sbt-revolver;0.8.0!sbt-revolver.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#actions;0.13.13!actions.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#testing;0.13.13!testing.jar(src)
@@ -2456,6 +2652,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.0-M1!launcher-interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.13!sbt.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.ant#ant;1.9.6!ant.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-tools.sbinary#sbinary_2.10;0.4.2!sbinary_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#api;0.13.13!api.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#incremental-compiler;0.13.13!incremental-compiler.jar(src)
@@ -2469,7 +2666,8 @@
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.50!jsch.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 59ms :: artifacts dl 7ms
+[debug] :: resolution report :: resolve 95ms :: artifacts dl 13ms
 [debug] 	report for org.arkmaxim#client$sources_2.10;1.0 default produced in /Users/locnguyen/Desktop/CRUDEndpoint/client/target/resolution-cache/reports/org.arkmaxim-client$sources_2.10-default.xml
-[debug] 	resolve done (59ms resolve - 7ms download)
+[debug] 	resolve done (95ms resolve - 13ms download)

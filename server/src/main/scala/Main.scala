@@ -1,31 +1,35 @@
 import akka.actor.ActorSystem
+import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives._
 import akka.stream.ActorMaterializer
-import route.UserServer
+import restapi.services.UsersService
+import restapi.utils.{DatabaseService, FlywayService}
+import route.HttpService
 import slick.backend.DatabaseConfig
 import slick.driver.JdbcProfile
 import slick.driver.MySQLDriver.api._
 
+import scala.concurrent.ExecutionContext
 import scala.io.StdIn
-import scala.model.{UserRepository}
 /**
 	* Created by locnguyen on 4/1/17.
 	*/
-object Main extends App with UserServer {
+object Main extends App with Config {
 
-	implicit val system = ActorSystem("example")
-	implicit val materializer = ActorMaterializer()
-	implicit val dispatcher = system.dispatcher
+	implicit val actorSystem = ActorSystem()
+	implicit val executor: ExecutionContext = actorSystem.dispatcher
+	implicit val log: LoggingAdapter = Logging(actorSystem, getClass)
+	implicit val materializer: ActorMaterializer = ActorMaterializer()
 
-	println("Call before complete")
+//	val flywayService = new FlywayService(jdbcUrl, dbUser, dbPassword)
+//	flywayService.migrateDatabaseSChema()
 
-			val bindingFuture = Http().bindAndHandle(routes, "localhost", 8080)
+	val databaseService = new DatabaseService(jdbcUrl, dbUser, dbPassword)
 
-			println(s"Server online at http://localhost:8080/\nPress RETURN to stop...")
-			StdIn.readLine() // let it run until user presses return
-			bindingFuture
-				.flatMap(_.unbind()) // trigger unbinding from the port
-				.onComplete(_ => system.terminate()) // and shutdown when done
+	val usersService = new UsersService(databaseService)
+	val httpService = new HttpService(usersService)
+
+	Http().bindAndHandle(httpService.routes, httpHost, httpPort)
 
 }

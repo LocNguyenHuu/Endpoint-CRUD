@@ -6,6 +6,7 @@ import io.circe.{Decoder, Encoder}
 import io.circe.generic.extras.Configuration
 import io.circe.generic.extras.semiauto.{deriveDecoder, deriveEncoder}
 import io.circe.generic.auto._
+import io.circe.syntax._
 
 import scala.concurrent.Future
 
@@ -13,10 +14,6 @@ import scala.concurrent.Future
 	* Created by locnguyen on 3/28/17.
 	*/
 case class User(id: Option[Long] = None, username: String, password: String)
-
-case class UserId(uuid: UUID) {
-	def idString: String = uuid.toString
-}
 
 //final case class GetUserRequest(
 //	userId: UserId
@@ -37,7 +34,7 @@ case class UserId(uuid: UUID) {
 //}
 
 final case class GetAllUsersResponse(
-	user: Future[Seq[User]]
+	user: Seq[User]
 )
 
 object GetAllUsersResponse {

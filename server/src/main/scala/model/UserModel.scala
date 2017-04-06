@@ -1,18 +1,8 @@
 package scala.model
 
-
-import endpoint.scala.api._
-import slick.lifted.Tag
-import slick.driver.MySQLDriver.api._
-import slick.driver.MySQLDriver.backend.Database
-import endpoint.parseuser.User
 import model.UserEntity
-import slick.backend.DatabaseConfig
-import slick.dbio.DBIOAction
-import slick.driver.{JdbcProfile, MySQLDriver}
-import util.DatabaseService
+import restapi.utils.DatabaseService
 
-import scala.concurrent.Future
 
 
 /**

@@ -20,12 +20,7 @@ val commonSettings = Seq(
 		"-Xexperimental"
 	),
 	libraryDependencies ++= Seq(
-		"org.mindrot" % "jbcrypt" % "0.4",
-		"com.typesafe.slick" % "slick_2.11" % "3.1.0",
-		"mysql" % "mysql-connector-java" % "5.1.34",
-		"io.monix" %% "monix" % "2.2.4",
-		"org.postgresql" % "postgresql" % "9.4-1201-jdbc41",
-		"com.zaxxer" % "HikariCP" % "2.4.5"
+		"mysql" % "mysql-connector-java" % "5.1.34"
 	),
 	resolvers += "typesafe" at "http://repo.typesafe.com/typesafe/releases/"
 )
@@ -66,6 +61,11 @@ lazy val server = project.in(file("server"))
   .settings(
 		name := "server",
 		libraryDependencies ++= Seq(
+			"com.typesafe.slick" %% "slick" % "3.2.0-M2",
+			"org.postgresql" % "postgresql" % "9.4-1201-jdbc41",
+			"com.zaxxer" % "HikariCP" % "2.4.5",
+			"org.flywaydb" %  "flyway-core" % "3.2.1",
+			"org.slf4j" %  "slf4j-nop" % "1.6.4",
 			// server based on akka-http
 			"org.julienrf" %% "endpoints-akka-http-server" % "0.2.0",
 			// (optional) JSON serialization using circe.io

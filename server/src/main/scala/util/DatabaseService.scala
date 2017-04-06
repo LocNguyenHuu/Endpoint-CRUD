@@ -1,14 +1,14 @@
-package util
+package restapi.utils
 
 import com.zaxxer.hikari.{HikariConfig, HikariDataSource}
 
 /**
 	* Created by locnguyen on 4/3/17.
 	*/
-class DatabaseService(jdbcUrl: String, dbUse: String, dbPassword: String) {
+class DatabaseService(jdbcUrl: String, dbUser: String, dbPassword: String) {
 	private val hikariConfig = new HikariConfig()
 	hikariConfig.setJdbcUrl(jdbcUrl)
-	hikariConfig.setUsername(dbUse)
+	hikariConfig.setUsername(dbUser)
 	hikariConfig.setPassword(dbPassword)
 
 	private val dataSource = new HikariDataSource(hikariConfig)
